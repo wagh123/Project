@@ -1,0 +1,14 @@
+.head{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.block h2{
+    margin-top: 10px;
+    align-items: center;
+}
+iframe{
+    margin-top: 20px;
+  margin-bottom: 20px;
+ 
+}

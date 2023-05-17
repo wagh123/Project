@@ -1,0 +1,183 @@
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .block img{
+    padding-left: 40px;
+    margin-top: 40px;
+    width: 400px;
+    height: 330px;
+    margin-bottom: 20px;
+  }
+  .container1{
+    margin: 50px;
+  }
+  .facilities{
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .facilities .pic{
+    overflow: hidden;
+    position: relative;
+  }
+  .facilities .pic img{
+  
+    width: 400px;
+    height: 300px;
+  }
+  .container3 h2{
+    margin-top: 50px;
+  }
+ footer{
+  background-color: #383d41;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+ }
+ .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #909192;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 5px auto;
+  font-size: 14px;
+  color: #909192;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #909192;
+}
+.socials a:hover i{
+  color: aqua;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+  
+.carousel-caption {
+	bottom: 220px;
+	z-index: 2;
+}
+
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+  .register {
+    padding: 3%;
+  }
+  .navbar-brand{
+    margin-top: 10px;
+  }
+  .register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+  }
+  .register-left input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+  }
+  .register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 5% 50%;
+    border-bottom-left-radius: 10% 50%;
+  }
+  .register-left p {
+    font-weight: lighter;
+    padding: 12%;
+    /* margin-top: -9%; */
+  }
+  .register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+  }
+  .btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #0062cc;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+  }
+  .register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+  }
+  .register .nav-tabs .nav-link {
+    padding: 1%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+  }
+  .register .nav-tabs .nav-link:hover {
+    border: none;
+  }
+  .register .nav-tabs .nav-link.active {
+    width: 120px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+  }
+  .register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+  }
+  #About-Us{
+    padding: 50px 0px 50px 0px;
+  }
+  
+  

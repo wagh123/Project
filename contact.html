@@ -1,0 +1,207 @@
+<?php
+  require("dbconn.php");
+
+?>
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/8231b1ecbe.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <title>DEOGIRI</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="#"><span class="text-warning"><h4><i class="fa-solid fa-hotel"></i>&nbsp Shardabai</span>Pawar Girl's Hostel</h4></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#intro">Team</a> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        <a href="registration.html"><button class="btn btn-primary" type="button">Register</button></a>
+      </div>
+    </nav> 
+      <!-- home section -->
+      <section id="Home">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/image11.jpg" alt="images11" width="1350" height="660">
+            <div class="carousel-caption">
+                <h1>Connect With Us.</h1>
+              <p><a href="https://deogiricollege.org" class="btn btn-warning" target="_blank">Learn More</a></p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="img/image3.jpg" alt="image3" width="1350" height="660">
+            <div class="carousel-caption">
+                <h1>Connect With Us.</h1>
+              <p><a href="https://deogiricollege.org" class="btn btn-warning" target="_blank">Learn More</a></p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="img/image12.jpg" alt="image12" width="1350" height="660">
+            <div class="carousel-caption">
+              <h1>Connect With Us.</h1>
+              <p><a href="https://deogiricollege.org" class="btn btn-warning" target="_blank">Learn More</a></p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="head pb-5">
+        <div class="container py-5">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="font-weight-light text-center py-3">Contact Us</h1>
+                    <div class="row">
+                        <div class="col-lg-5 col-md-12 col-sm-12">
+                            <div class="row pt-3">
+
+                            
+                        <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                            <h3 class="font-weight-light">Find Us at Office</h3>
+                            <p>Deogiri College of Engineering and Management, Aurangabad.</p>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-lg-1 offset-1 col-md-2 col-sm-2 col-2">
+                            <span><i class="fa-solid fa-phone"></i></span>
+                        </div>
+                        <div class="col-lg-10 col-md-9 col-sm-9 col-9">
+                            <h3 class="font-weight-light">Give us a ring</h3>
+                            <p>Shardabai Pawar <br> Girls Hostel
+                            <br>Mon-Fri, 8:00-22:00</p>
+                        </div>
+                     </div>
+                      </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <form method = "post" action="contact.php">
+                            <div class="form-row">
+                                <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" placeholder="First Name" require name="fname">
+                                </div>
+                                <div class="form-group col-lg-6 col-md-12 col-sm-12 col-12">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" placeholder="Last Name" require name="lname">
+                                </div>
+                            </div>
+                            <label>Email</label>
+                            <input type="Email" placeholder="Email" class="form-control" require name="email">
+                            <label>Your Message</label>
+                            <textarea class="form-control mb-3" placeholder="Message" name="message" id="" cols="30" rows="5"></textarea>
+                            <input type="checkbox" require><label>I,m not a rebort</label><button class="btn btn-primary float-right" name="sendmsg">Send Message</button>
+                        </form>
+                        <div class="col-md-6 col-sm-6">
+                        <div class="block">
+                        <h2>Google Map</h2>
+                            <div class="google-map">
+                            <iframe class="float-right" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d938.1070656358514!2d75.32065560166045!3d19.864130254590812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb992c2447fc49%3A0xb86176079608e55c!2sD.I.E.M.S%20Girls%20Hostel!5e0!3m2!1sen!2sin!4v1667776304089!5m2!1sen!2sin"  width="650" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+            </div>
+            </div>
+        </div>
+    </section>
+  <!-- footer start -->
+  <footer>
+    <div class="container5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer-menu">
+            <ul class="socials">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Team.html">Team</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#Gallery">Contact Us</a></li>
+              <li><a href="login.php">Admin</a></li>
+
+            </ul>
+          </div>
+            <div class="footer-content">
+              <p><strong>Copyright &copy;Shardabai Pawar Girls Hostel DIETMS All rights reserved.</strong><br>Design &amp; Developed by Yogita Wagh</p>
+                <ul class="socials">
+                   <li><a href="https://www.linkedin.com/company/deogiriengineering/about/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends -->
+
+    </body>
+    </html>
+    
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+#inputbtn:hover{cursor:pointer;}
+.card{
+background: #f8f9fa;
+border-top-left-radius: 5% 5%;
+border-bottom-left-radius: 5% 5%;
+border-top-right-radius: 5% 5%;
+border-bottom-right-radius: 5% 5%;
+}
+body{
+background-image :url("../img/IMG_20221106_133205~2.jpg");
+background-repeat: no-repeat;
+background-size : cover;
+}
